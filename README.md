@@ -1,3 +1,4 @@
+RUN IT ON http://localhost:4200/
 # AngularWeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
