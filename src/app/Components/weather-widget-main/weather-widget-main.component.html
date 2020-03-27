@@ -1,6 +1,12 @@
 <div id="divWeatherMain">
 
-
+  <div style="padding-left: 50px;padding-top: 10px">
+    <h1 style="color: lightblue; font-weight:bolder;font-family:'Bookman Old Style'; align-content: center;padding-left: 50px;padding-top: 10px">Get-Weather</h1>
+    <input style="background-color: ghostwhite ;padding:5px;border: 2px solid lightblue;
+  border-radius: 4px;" type="text" placeholder="Enter City" [(ngModel)]="city">
+    <br>
+    <button type="button"id="button"  class="button4"(click)="func1(city)">Get Weather</button>
+  </div>
   <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
     <i class="fas fa-3x fa-sun sun"></i>
   </div>
