@@ -2,11 +2,11 @@
   margin: 60px;
   display: block;
   border-radius: 10px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 550px;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1) 75%, rgb(8, 10, 63) 100%);
-  color: white;;
+  color: beige;;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -45,4 +45,25 @@
 @keyframes cloudMovement{
   from{margin-left: -55px;}
   to{margin-left: 65px;}
+}
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: lightblue;}
+
+#button {
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
